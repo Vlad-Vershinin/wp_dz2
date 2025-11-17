@@ -1,0 +1,197 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "DynamicData/9.4.1": {
+        "dependencies": {
+          "System.Reactive": "6.1.0"
+        },
+        "runtime": {
+          "lib/net9.0/DynamicData.dll": {
+            "assemblyVersion": "9.4.0.0",
+            "fileVersion": "9.4.1.30094"
+          }
+        }
+      },
+      "ReactiveUI/22.2.1": {
+        "dependencies": {
+          "DynamicData": "9.4.1",
+          "Splat": "17.1.1",
+          "System.Reactive": "6.1.0"
+        },
+        "runtime": {
+          "lib/net10.0/ReactiveUI.dll": {
+            "assemblyVersion": "22.2.0.0",
+            "fileVersion": "22.2.1.8730"
+          }
+        }
+      },
+      "ReactiveUI.Fody/19.5.41": {
+        "dependencies": {
+          "ReactiveUI": "22.2.1"
+        },
+        "runtime": {
+          "lib/net8.0/ReactiveUI.Fody.Helpers.dll": {
+            "assemblyVersion": "19.5.0.0",
+            "fileVersion": "19.5.41.25387"
+          }
+        }
+      },
+      "ReactiveUI.WPF/22.2.1": {
+        "dependencies": {
+          "DynamicData": "9.4.1",
+          "ReactiveUI": "22.2.1",
+          "Splat": "17.1.1",
+          "System.ComponentModel.Annotations": "5.0.0",
+          "System.Reactive": "6.1.0"
+        },
+        "runtime": {
+          "lib/net462/ReactiveUI.Wpf.dll": {
+            "assemblyVersion": "22.2.0.0",
+            "fileVersion": "22.2.1.8730"
+          }
+        }
+      },
+      "Splat/17.1.1": {
+        "dependencies": {
+          "Splat.Builder": "17.1.1",
+          "Splat.Logging": "17.1.1",
+          "System.Reactive": "6.1.0"
+        },
+        "runtime": {
+          "lib/net10.0/Splat.dll": {
+            "assemblyVersion": "17.1.0.0",
+            "fileVersion": "17.1.1.49067"
+          }
+        }
+      },
+      "Splat.Builder/17.1.1": {
+        "dependencies": {
+          "Splat.Core": "17.1.1",
+          "System.Reactive": "6.1.0"
+        },
+        "runtime": {
+          "lib/net10.0/Splat.Builder.dll": {
+            "assemblyVersion": "17.1.0.0",
+            "fileVersion": "17.1.1.49067"
+          }
+        }
+      },
+      "Splat.Core/17.1.1": {
+        "dependencies": {
+          "System.Reactive": "6.1.0"
+        },
+        "runtime": {
+          "lib/net10.0/Splat.Core.dll": {
+            "assemblyVersion": "17.1.0.0",
+            "fileVersion": "17.1.1.49067"
+          }
+        }
+      },
+      "Splat.Logging/17.1.1": {
+        "dependencies": {
+          "Splat.Core": "17.1.1",
+          "System.Reactive": "6.1.0"
+        },
+        "runtime": {
+          "lib/net10.0/Splat.Logging.dll": {
+            "assemblyVersion": "17.1.0.0",
+            "fileVersion": "17.1.1.49067"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/System.ComponentModel.Annotations.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Reactive/6.1.0": {
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.62682"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DynamicData/9.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+SoDTbuzY9j0K+sZfRbbVpGjjylkVMhUQnw6qiPhxzYLBJlwxFpmunXSaNBtTxwC2C9d/XIp0kO7VhMAVuUt7w==",
+      "path": "dynamicdata/9.4.1",
+      "hashPath": "dynamicdata.9.4.1.nupkg.sha512"
+    },
+    "ReactiveUI/22.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P0ZaWZdRVoycwfcEpkC8C/b9mbEJmueTPkBA4PON9NiopGjUY2YhIP5Dm8lki/FLH9aiKt18NXsDwv/mgO/1Dw==",
+      "path": "reactiveui/22.2.1",
+      "hashPath": "reactiveui.22.2.1.nupkg.sha512"
+    },
+    "ReactiveUI.Fody/19.5.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bh6OH1WsSHf/ryUVaPnI6LWl1+lrCvq4L/AoHpzPXCKxtR4p0ogPVONnkq0jYgSQ55x7YNCVkthBKeb6uUSbpg==",
+      "path": "reactiveui.fody/19.5.41",
+      "hashPath": "reactiveui.fody.19.5.41.nupkg.sha512"
+    },
+    "ReactiveUI.WPF/22.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pFju8L23VWbBS1QRVxebZYPsOzkKwgAEnpZdQLCE31BzYwbkcAbiHcrRzoskIcw1O8ov3sQZQ3cqHqCsbrbTIw==",
+      "path": "reactiveui.wpf/22.2.1",
+      "hashPath": "reactiveui.wpf.22.2.1.nupkg.sha512"
+    },
+    "Splat/17.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WwSoJ6aPHlXwWS2jfUtKQIgzQQDSuE/iGbqEFRcM1DKVQelf+XSfnaur6oAqzECobuJLC9nqUMeDH19gU6JDag==",
+      "path": "splat/17.1.1",
+      "hashPath": "splat.17.1.1.nupkg.sha512"
+    },
+    "Splat.Builder/17.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlA5ErMwa/mg//uC5Ajv4ns3HbWXE0VJiyfupdsLfC+1HPf2MIUUk9ViYxwearB9nkZ+mAmteVD0keBhg/LYsQ==",
+      "path": "splat.builder/17.1.1",
+      "hashPath": "splat.builder.17.1.1.nupkg.sha512"
+    },
+    "Splat.Core/17.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sRNcO9EcnrCMr2OF4IxD8gcHtIAfCi98GwVZEK9X294RQEBIsy7sHwy8fndlxLguIHvjDJMz85v+qd226pwdNw==",
+      "path": "splat.core/17.1.1",
+      "hashPath": "splat.core.17.1.1.nupkg.sha512"
+    },
+    "Splat.Logging/17.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OSkQVj6/hYVHa0taPasaknuOLw4l8CH9oTFRNuFayDowhHtGg6+UQb2LeSJXV+EXRmUL2E/TFz2ucitnQyTXJQ==",
+      "path": "splat.logging/17.1.1",
+      "hashPath": "splat.logging.17.1.1.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
+      "path": "system.componentmodel.annotations/5.0.0",
+      "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    },
+    "System.Reactive/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M5cCC1ZMkZr9jbSQGTHnVkb5TDN67qWCV7AP8TAHdGkvDlu0puT5NzemESNn9+HkYIDpWpocP68/i+/ame2/2w==",
+      "path": "system.reactive/6.1.0",
+      "hashPath": "system.reactive.6.1.0.nupkg.sha512"
+    }
+  }
+}
