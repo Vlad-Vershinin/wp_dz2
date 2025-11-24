@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "F:\\code\\cs\\wp_dz2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|client\\client.csproj|f:\\code\\cs\\wp_dz2\\client\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|client\\client.csproj|solutionrelative:client\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|f:\\code\\cs\\wp_dz2\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|client\\client.csproj|f:\\code\\cs\\wp_dz2\\client\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|client\\client.csproj|solutionrelative:client\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|client\\client.csproj|f:\\code\\cs\\wp_dz2\\client\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|client\\client.csproj|solutionrelative:client\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|client\\client.csproj|f:\\code\\cs\\wp_dz2\\client\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|client\\client.csproj|solutionrelative:client\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|client\\client.csproj|f:\\code\\cs\\wp_dz2\\client\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|client\\client.csproj|solutionrelative:client\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|client\\client.csproj|f:\\code\\cs\\wp_dz2\\client\\converters\\booltostringconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE7EEA74-2FE0-136F-D797-854FD87E022A}|client\\client.csproj|solutionrelative:client\\converters\\booltostringconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|f:\\code\\cs\\wp_dz2\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|f:\\code\\cs\\wp_dz2\\server\\sockethelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3461765F-60A1-21BC-764E-FC799869FE2F}|server\\server.csproj|solutionrelative:server\\sockethelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,13 +54,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Message.cs",
+              "DocumentMoniker": "F:\\code\\cs\\wp_dz2\\client\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "client\\Models\\Message.cs",
+              "ToolTip": "F:\\code\\cs\\wp_dz2\\client\\Models\\Message.cs",
+              "RelativeToolTip": "client\\Models\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T13:55:52.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SocketHelper.cs",
+              "DocumentMoniker": "F:\\code\\cs\\wp_dz2\\server\\SocketHelper.cs",
+              "RelativeDocumentMoniker": "server\\SocketHelper.cs",
+              "ToolTip": "F:\\code\\cs\\wp_dz2\\server\\SocketHelper.cs",
+              "RelativeToolTip": "server\\SocketHelper.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwHYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T13:08:11.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\code\\cs\\wp_dz2\\server\\Program.cs",
               "RelativeDocumentMoniker": "server\\Program.cs",
               "ToolTip": "F:\\code\\cs\\wp_dz2\\server\\Program.cs",
               "RelativeToolTip": "server\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T14:01:37.994Z",
               "EditorCaption": ""
@@ -72,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "F:\\code\\cs\\wp_dz2\\client\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "client\\Views\\MainWindow.xaml",
@@ -84,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "F:\\code\\cs\\wp_dz2\\client\\Views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "client\\Views\\MainWindow.xaml.cs",
@@ -97,13 +131,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "F:\\code\\cs\\wp_dz2\\client\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "client\\ViewModels\\MainWindowViewModel.cs",
               "ToolTip": "F:\\code\\cs\\wp_dz2\\client\\ViewModels\\MainWindowViewModel.cs",
               "RelativeToolTip": "client\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAASwF0AAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAHwAAAAAAAAAAAApwIsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T04:24:01.39Z",
               "EditorCaption": ""

@@ -63,10 +63,9 @@ public class MainWindowViewModel : ReactiveObject
 
             _cts.Cancel();
             _cts.Dispose();
-            var newCts = new CancellationTokenSource();
-            _cts = newCts;
+            _cts = new CancellationTokenSource();
 
-            _ = Task.Run(() => ReceiveLoop(newCts.Token));
+            _ = Task.Run(() => ReceiveLoop(_cts.Token));
         }
         catch (Exception ex)
         {
@@ -112,6 +111,8 @@ public class MainWindowViewModel : ReactiveObject
 
     private async Task ReceiveLoop(CancellationToken ct)
     {
+        Debug.WriteLine("[ReceiveLoop] Запуск ReceiveLoop");
+
         if (_client == null)
             return;
 
@@ -124,7 +125,11 @@ public class MainWindowViewModel : ReactiveObject
                 try
                 {
                     string msg = await TcpMessageHelper.ReceiveMessage(_client);
-                    Messages.Add(new Message { Text = msg });
+                    Application.Current.Dispatcher.Invoke(() =>
+                    {
+                        Messages.Add(new Message { Text = msg });
+                    });
+                    //Messages.Add(new Message { Text = msg });
                 }
                 catch (OperationCanceledException)
                 {
@@ -138,17 +143,15 @@ public class MainWindowViewModel : ReactiveObject
         }
         finally
         {
+            Debug.WriteLine("[ReceiveLoop] Запуск страрт блока finally");
             if (!Application.Current.Dispatcher.HasShutdownStarted)
             {
-                Application.Current.Dispatcher.Invoke(() =>
+                if (_client?.Connected == false)
                 {
-                    if (_client?.Connected == false)
-                    {
-                        IsConnected = false;
-                        Messages.Add(new Message { Text = "Соединение с сервером потеряно" });
-                    }
-                });
-            }
+                    IsConnected = false;
+                    Messages.Add(new Message { Text = "Соединение с сервером потеряно" });
+                }
+            };
 
             if (_client != null)
             {
